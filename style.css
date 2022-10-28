@@ -1,0 +1,51 @@
+body{
+position:relative;
+min-height:600px;
+min-width:1200px;
+background-image:url("bg.jpg");
+background-repeat:no-repeat;
+background-position:0 0;
+background-attachment:fixed;
+background-size:cover;
+font-size:16px;
+line-height=16px;
+}
+
+#box{
+margin:150px auto;
+background-color:white;
+width:1200px;
+height:550px;
+border-radius:20px;
+}
+ 
+#image{
+width:500px;
+height:550px;
+float:left;
+margin-right:20px;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+}
+
+#content{
+width:1200px;
+height:550px;
+padding:20px;
+font:"Arial" 12px;
+}
+
+a{
+text-decoration:none;
+color:blue;
+}
+
+a:visited{color:blue;}
+a:hover{color:red;}
+
+.link{
+position:relative;
+font:"Arial" 30px;
+border:5px rigid red;
+margin:0 50px;
+}
